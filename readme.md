@@ -1,7 +1,21 @@
 # Discuss
 
-> Hex-Tech 主导的社交化评论窗口
+> a social Discuss box powered by Hex-Tech
 
-- 快捷引入SDK组件
-- 界面显示友好
-- 评论支持Markdown文本
+### Features
+---
+- use it easily
+- show contents friendly
+- [ ] support Markdown text
+
+### Usage
+---
+\# TODO:
+
+### Demo
+---
+[https://discuss.hex-tech.io](https://discuss.hex-tech.io)
+
+### Contributions
+---
+We hope you will support our projects and report issues. :)
