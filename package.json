@@ -1,0 +1,30 @@
+{
+  "name": "hex-tech-discuss",
+  "version": "0.0.1",
+  "description": "Hex-Tech Discuss",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hex-tech-discuss/homepage.git"
+  },
+  "keywords": [
+    "social",
+    "disucss",
+    "Hex-Tech"
+  ],
+  "author": "Hex-Tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hex-tech-discuss/homepage/issues"
+  },
+  "homepage": "https://github.com/hex-tech-discuss/homepage#readme"
+}

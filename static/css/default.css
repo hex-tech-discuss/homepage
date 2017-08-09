@@ -31,10 +31,10 @@ main > .sub-title > .blink {
 }
 /*end title*/
 main .demo {
+    margin-top: 10vh;
     width: 60vw;
     height: 40vh;
     background: #CFD8DC;
-    margin-top: 100px;
     border-radius: 3px;
     box-shadow: 6px 8px 5px #263238;
 }
