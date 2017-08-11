@@ -54,7 +54,10 @@ footer
     margin auto
     a
       color: #86A6DF
-@media (max-width: 600px)
+      &::before
+        content "\2665"
+        color #E63870
+@media (max-width: 768px)
   main
     .title
       font-size: 7vmax

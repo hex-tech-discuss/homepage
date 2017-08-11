@@ -57,7 +57,11 @@ footer div {
 footer div a {
   color: #86a6df;
 }
-@media (max-width: 600px) {
+footer div a::before {
+  content: "\2665";
+  color: #e63870;
+}
+@media (max-width: 768px) {
   main .title {
     font-size: 7vmax;
   }
