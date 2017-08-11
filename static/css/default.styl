@@ -1,0 +1,63 @@
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
+*
+  padding: 0
+  margin: 0
+  font-family: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif
+@keyframes twinkling
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+body
+  width: 100vw
+  background: #F5F5F5
+  min-height: 100vh
+  main
+    overflow: hidden
+    min-height: 90vh
+    display: flex
+    flex-direction: column
+    align-items: center
+    .demo
+      margin-top: 7vh
+    .top
+      background: #3A718C
+      height: 30vh
+      width: 100vw
+      justify-content: flex-start
+      box-shadow: 0 40px 40px -20px #CCC
+      *
+        display: block
+        color: #FFF
+        text-align: center
+      .title
+        font-size: 5vmax
+        font-weight: lighter
+        justify-content: center
+        margin-top: 6vh
+      .sub-title
+        color: #21D19F
+        .blink
+          display inline-block
+          animation: twinkling 1s infinite ease-in-out
+          color: #21D19F
+footer
+  text-align: center
+  height: 10vh
+  background: #324E7B
+  color: #FFF
+  display flex
+  div
+    margin auto
+    a
+      color: #86A6DF
+@media (max-width: 600px)
+  main
+    .title
+      font-size: 7vmax
+  main
+    .demo
+      margin-top: 3vh
